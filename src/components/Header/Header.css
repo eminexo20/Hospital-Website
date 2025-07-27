@@ -1,0 +1,19 @@
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  header {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .overlay-content {
+    z-index: 2;
+  }
+  
+  .carousel {
+    z-index: 1;
+  }
+  
