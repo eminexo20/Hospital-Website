@@ -10,6 +10,8 @@ import Contact from './components/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

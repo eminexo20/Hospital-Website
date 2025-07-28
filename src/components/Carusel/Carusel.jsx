@@ -2,6 +2,10 @@ import React from 'react';
 import slide1 from '../../assets/images.jpg';
 import clinic1 from '../../assets/clinic1.jpg';
 import nurse from '../../assets/nurse.jpg';
+import bayram from '../../assets/bayram.jpg';
+import koredoctor from '../../assets/koredoctor.jpg';
+
+
 import './Carusel.css';
 
 const Carusel = () => {
@@ -17,23 +21,23 @@ const Carusel = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slide1} className="d-block" alt="First slide" />
+            <img src={bayram} className="d-block" alt="First slide" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First Slide</h5>
+              
               <p>Clinic environment overview.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={clinic1} className="d-block" alt="Second slide" />
+            <img src={koredoctor} className="d-block" alt="Second slide" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second Slide</h5>
+            
               <p>Medical team working.</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={nurse} className="d-block" alt="Third slide" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third Slide</h5>
+              
               <p>Advanced equipment in action.</p>
             </div>
           </div>
