@@ -1,0 +1,31 @@
+.two-list{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: auto;
+}
+.icones{
+    display: flex;
+}
+.icone{
+
+}
+.metn{
+   margin-left: 2%;
+}
+/* CSS */
+/* CSS */
+.bi-twitter {border-radius: 50%; padding: 10px;margin-right: 20px; font-size: 30px; color: white; background-color: blue;}
+.bi-facebook { border-radius: 50%;padding: 10px; margin-right: 20px; font-size: 30px; color: white; background-color: blue}
+.bi-instagram {  border-radius: 50%;padding: 10px; font-size: 30px; color: white;background-color: blue }
+.media-icons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .main {
+        display: flex;
+        justify-content: space-between; /* Hər blok arasında bərabər boşluq */
+                       /* Əlavə boşluq (istəyə bağlı) */
+      }
+      
