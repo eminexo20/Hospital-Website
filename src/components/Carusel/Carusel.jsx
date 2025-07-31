@@ -1,6 +1,5 @@
 import React from 'react';
-import slide1 from '../../assets/images.jpg';
-import clinic1 from '../../assets/clinic1.jpg';
+
 import nurse from '../../assets/nurse.jpg';
 import bayram from '../../assets/bayram.jpg';
 import koredoctor from '../../assets/koredoctor.jpg';

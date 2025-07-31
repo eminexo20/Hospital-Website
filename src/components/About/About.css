@@ -1,0 +1,86 @@
+.about-image {
+    background-image: url('../../assets/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+
+}
+
+.button1 {
+    background-color: #0066cc;
+    /* Mavi rəng */
+    color: #fff;
+    padding: 15px 24px;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(54, 41, 200, 0.1);
+}
+
+.button2 {
+    background: #fe5f55 ;
+    border: 1px solid #fe5f55 ;
+    color: #fff ;
+    padding: 15px 24px;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+
+}
+.button2:hover {
+    background-color: #fff;
+    color: #fe5f55;
+    border: 1px solid #fe5f55;
+  }
+  
+
+.span {
+    color: rgb(67, 67, 229);
+}
+
+.scroll-text p {
+    color: rgb(140, 149, 156);
+    font-size: 23px;
+    margin-top: 70px;
+}
+
+.sec1 {
+    display: flex;
+}
+.scroll-text {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.7s ease-out;
+  }
+  
+  .scroll-text.visible {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .ambulance {
+    display: flex;
+  
+  }
+  .container py-5{
+    padding: 20px;
+  }
+  .col img{
+    width: 4rem;
+margin-bottom: 200px;
+margin-right: 15px;
+  }
+  .col{
+    display: flex;
+  
+   
+  }
+ .ttt{
+  margin-left: 2px;
+ }
+  
+ 
