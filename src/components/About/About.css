@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .about-image {
     background-image: url('../../assets/about.jpg');
     background-size: cover;
@@ -48,6 +52,9 @@
     margin-top: 70px;
 }
 
+
+
+
 .sec1 {
     display: flex;
 }
@@ -62,25 +69,92 @@
     transform: translateY(0px);
   }
 
-  .ambulance {
-    display: flex;
-  
-  }
-  .container py-5{
-    padding: 20px;
-  }
-  .col img{
-    width: 4rem;
-margin-bottom: 200px;
-margin-right: 15px;
+  .bas{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
   }
   .col{
     display: flex;
-  
-   
   }
- .ttt{
-  margin-left: 2px;
- }
   
- 
+  .col img{
+   margin-right: -30px;
+    width: 5rem;
+    padding: 10px;
+  background-color: #ef6b62;
+  border-radius: 40%;
+  margin-bottom: 150px;
+  }
+  .ttt h1{
+    font-size: 2rem;
+  }
+ .row row-cols-2 g-4{
+  background-color:rgb(211, 181, 181);
+ }
+ .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+.formtext {
+  background-color: #f8f9fa; /* Açıq boz ton */
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+.consult-title{
+  color: rgb(99, 165, 235);
+}
+@media (max-width: 768px) {
+  .sec1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col img {
+    margin: 0 auto 30px auto;
+    width: 4rem;
+    margin-bottom: 30px;
+  }
+
+  .ttt h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .scroll-text p {
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 0 10px;
+  }
+
+  .button1,
+  .button2 {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+
+  .formtext {
+    padding: 20px 10px;
+  }
+
+  .about-image {
+    height: 400px;
+  }
+
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+
+
