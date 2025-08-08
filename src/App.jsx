@@ -11,6 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Departament from './components/Departament/Departament';
+
+import './App.css';
+
 
 
 
@@ -23,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/departament" element={<Departament />} />
         <Route path="/services" element={<Services />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/blog" element={<Blog />} />

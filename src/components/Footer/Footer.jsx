@@ -7,9 +7,9 @@ const Footer = () => {
                 <h2>MediPlus</h2>
                 <p>Far far away, behind the <br /> word mountains, far <br /> from the countries.</p>
                 <div className='media-icons'>
-                    <i class="bi bi-twitter"><a href=""></a></i>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
+                  <a href="https://www.linkedin.com/feed/"> <i class="bi bi-twitter"></i></a> 
+                  <a href="https://www.linkedin.com/feed/"><i class="bi bi-facebook"></i></a> 
+                   <a href="https://www.linkedin.com/feed/"> <i class="bi bi-instagram"></i></a> 
                 </div>
             </div>
             <div className='two-list'>

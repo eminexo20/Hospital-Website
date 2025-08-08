@@ -5,6 +5,9 @@ import hours from '../../assets/24-hours.png';
 import ambulance from '../../assets/ambulance.png';
 import stethos from '../../assets/stethoscope.png';
 import doctor from '../../assets/doctor.png';
+import nextpix from '../../assets/nextpix.jpg';
+import bluedoc from '../../assets/bluedoc.jpg';
+
 
 
 
@@ -136,8 +139,19 @@ const About = () => {
                   <button type="submit" className="btn btn-danger px-5 py-2">Appointment</button>
                 </div>
               </form>
+             
             </div>
+            <div className='last-div'>
+                 <img src={bluedoc} alt="" />
+              <div className="ove">
+                <h3>Your Health is Our <br /> Priority</h3>
+                <p>We can manage your dream building A small river named Duden flows by their place
 
+
+</p>
+                <button>aergerg</button>
+              </div>
+              </div>
           </div>
         </div>
       </div>

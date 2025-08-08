@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .about-image {
     background-image: url('../../assets/about.jpg');
     background-size: cover;
@@ -155,6 +156,118 @@
     padding-right: 10px !important;
   }
 }
+@media (max-width: 568px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ .consult-title{
+  text-align: center ;
+ }
+ .bas{
+  text-align: center;
+ }
+ .col div{
+  text-align: center;
+ }
+ .scroll-text{
+  max-width: 350px;
+ }
+}
+.last-div {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.last-div img {
+  width: 100%;
+  display: block;
+  margin-top: 100px;
+  height: 700px;
+}
+
+.ove {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 80%;
+}
+
+.ove h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.ove p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ove button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 📱 Media Query: Mobil görünüş üçün */
+@media (max-width: 768px) {
+  .ove {
+    top: 20%;
+    left: 5%;
+    transform: none;
+    max-width: 90%;
+  }
+
+  .ove h3 {
+    font-size: 2rem;
+  }
+
+  .ove p {
+    font-size: 1rem;
+  }
+
+  .ove button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+@media (max-width: 568px){
+  .last-div img{
+    height: 500px;
+  }
+  .ove {
+    top: 50%;
+    left: 5%;
+    transform: none;
+    max-width: 90%;
+  }
+
+  .ove h3 {
+    font-size: 2rem;
+  }
+
+  .ove p {
+    font-size: 1rem;
+  }
+
+  .ove button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+
 
 
 
