@@ -1,0 +1,109 @@
+/* === Ümumi Stil === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* === Ana Bölmə === */
+.medical-services {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+  background-color: #f8f9fa;
+}
+
+/* === Şəkil Bölməsi === */
+.doctor-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.doctor-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* === Servis Grid === */
+.services-grid {
+  flex: 1;
+  max-width: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* === Servis Kartları === */
+.service {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.service:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #207dff;
+}
+
+.service:hover h3,
+.service:hover p {
+  color: white;
+}
+
+/* === Servis Yazıları === */
+.service h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service p {
+  font-size: 20px;
+  color: #777;
+}
+
+/* === İkon Stil === */
+.stetos {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* === Responsive Stil === */
+@media (max-width: 768px) {
+  .medical-services {
+    flex-direction: column;
+  }
+
+  .doctor-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 568px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .doctor-image {
+    max-width: 100%;
+  }
+}
