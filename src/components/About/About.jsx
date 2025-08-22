@@ -149,7 +149,7 @@ const About = () => {
 
 
 </p>
-                <button>aergerg</button>
+                <button>Book</button>
               </div>
               </div>
           </div>

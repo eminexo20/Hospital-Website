@@ -3,7 +3,7 @@ import Carusel from './components/Carusel/Carusel';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
-import Services from './components/Services/Services';
+
 import Doctors from './components/Doctors/Doctors';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
@@ -28,7 +28,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/departament" element={<Departament />} />
-        <Route path="/services" element={<Services />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
