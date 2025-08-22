@@ -47,7 +47,7 @@ function Navbar() {
       
       <div className="container-fluid">
         
-        <Link className="navbar-brand" to="/">Mediplus</Link>
+        <Link className="navbar-brand" to="/">EXOPLUS</Link>
 
         <button
           className="navbar-toggler"
