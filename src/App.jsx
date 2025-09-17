@@ -3,7 +3,7 @@ import Carusel from './components/Carusel/Carusel';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
-
+import TestimonialCarousel from './components/TestimonialCarousel/TestimonialCarousel';
 import Doctors from './components/Doctors/Doctors';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
@@ -11,15 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Mymap from './components/MyMap/Mymap';
+
 import Departament from './components/Departament/Departament';
 
 import './App.css';
-
-
-
-
-
-
 function App() {
   return (
     <BrowserRouter>

@@ -1,0 +1,179 @@
+/* Ana konteyner */
+.main-contact {
+    background-color: #f0f4f8;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Başlıq hissəsi */
+  .first-tag {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .demo2{
+    border: 1px solid red;
+margin-top: 50px;
+    display: flex; 
+
+  }
+  .first-tag h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .first-tag p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Kartların yerləşməsi */
+  .cont-one {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Hər bir kontakt kartı */
+  .contact-card {
+    background-color: #d8eaf1;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    flex: 1 1 220px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* İkon stili */
+  .contact-card .icon {
+    font-size: 25px;
+    color: #007bff;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    background-color: #fff;
+  }
+  
+  /* Başlıq */
+  .contact-card .title {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #9f7272;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Mətn */
+  .contact-card .address {
+    font-size: 15px;
+    color: #d3c8c8;
+    line-height: 1.6;
+  }
+  .form-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px 16px;
+    border: 1px solid #3fb787;
+    border-radius: 8px;
+    background-color: #73a0dc; /* Tünd boz və ya qara */
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ff4d4d;
+    outline: none;
+  }
+  
+  .contact-form button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e63946;
+  }
+  
+  /* Mobil uyğunluq */
+  @media (max-width: 480px) {
+    .form-wrapper {
+      padding: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  /* Planşetlər üçün (768px və aşağı) */
+@media (max-width: 768px) {
+  .demo2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .map-container {
+    height: 300px;
+    width: 100%;
+    border-radius: 6px;
+  }
+}
+
+/* Mobil cihazlar üçün (480px və aşağı) */
+@media (max-width: 480px) {
+  .demo2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  .map-container {
+    height: 250px;
+    width: 100%;
+    border-radius: 4px;
+  }
+}

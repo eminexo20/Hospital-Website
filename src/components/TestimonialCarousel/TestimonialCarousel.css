@@ -1,0 +1,151 @@
+.card {
+    min-height: 320px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* üst və alt hissəni balanslaşdırır */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background: rgba(243, 13, 13, 0.1);
+    color: white;
+    backdrop-filter: blur(8px);
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 15px;
+  }
+  .bg-light {
+    background-color: #ff4d4d !important; /* açıq qırmızı */
+  }
+  
+  
+  
+  
+  /* Text */
+  .card p {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #f1f1f1;
+  }
+  
+  /* Name */
+  .card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .carousel,
+.carousel-inner,
+.carousel-item {
+  height: auto !important;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+}
+
+  
+
+  /* Role */
+  .card span {
+    font-size: 0.9rem;
+    color: #e0f7fa;
+  }
+  .carousel-item {
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container .card {
+  padding-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .card {
+      min-height: 300px;
+      padding: 15px;
+    }
+  
+    .card img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+    }
+  
+    .card p {
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+    }
+  
+    .card h5 {
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+  
+    .card span {
+      font-size: 0.85rem;
+    }
+  
+    .carousel-container {
+      padding: 40px 10px;
+    }
+  
+    .carousel-item {
+      min-height: 340px;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 568px) {
+    .card {
+      min-height: 280px;
+      padding: 10px;
+    }
+  
+    .card img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 8px;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+    }
+  
+    .card h5 {
+      font-size: 1rem;
+      margin-bottom: 3px;
+    }
+  
+    .card span {
+      font-size: 0.8rem;
+    }
+  
+    .carousel-container {
+      padding: 30px 5px;
+    }
+  
+    .carousel-item {
+      min-height: 320px;
+      padding-bottom: 1.5rem;
+    }
+  }
+  

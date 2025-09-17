@@ -184,7 +184,9 @@
   position: relative;
   
 }
-
+.ttt h1, p{
+  color: black;
+}
 .last-div img {
   width: 100%;
   display: block;

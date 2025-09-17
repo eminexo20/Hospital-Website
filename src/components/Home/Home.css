@@ -1,0 +1,157 @@
+.page-content {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e4ebf1;
+  color: #2e4075;
+  padding: 40px 20px;
+}
+
+.booking-section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.booking-left {
+  flex: 1;
+  min-width: 300px;
+}
+.booking-left  h1{
+  color: #2088f7;
+}
+.booking-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.doctor-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-form input {
+  padding: 12px;
+  border: 1px solid #b06969;
+  border-radius: 8px;
+  flex: 1;
+}
+.cta-link{
+  color: white;
+  background: #ff4d4d;
+  padding:  5px ;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  }
+.email-form button {
+  background-color: #ff4d4d;
+  color: rgb(252, 246, 246);
+  border: none;
+  padding: 0px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.calendar, .time-slots, .doctor-list, .appointment-summary, .stats {
+  background-color: rgb(90, 136, 165);
+  padding: 20px;
+  color: #f0ebec;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.slots-button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #2088f7;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.slots-button.active {
+  background-color: #ff4d4d;
+}
+.email-form a{
+  color: white;
+}
+.doctor-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-card.active {
+  background-color: #204369;
+  color: white;
+  border-color: #2088f7;
+}
+
+.doctor-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.confirm-button:hover {
+  background-color: #e63946;
+}
+
+.stats div {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .booking-container {
+    flex-direction: column;
+  }
+  
+  .email-form {
+    flex-direction: column;
+  }
+
+  .slots-button {
+    width: 100%;
+  }
+}

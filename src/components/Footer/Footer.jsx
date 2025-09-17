@@ -1,67 +1,85 @@
-import React from 'react'
-import "./Footer.css"
+import React from 'react';
+import './Footer.css';
+
 const Footer = () => {
-    return (
-        <div className="main">
-            <div>
-                <h2>MediPlus</h2>
-                <p>Far far away, behind the <br /> word mountains, far <br /> from the countries.</p>
-                <div className='media-icons'>
-                  <a href="https://www.linkedin.com/feed/"> <i class="bi bi-twitter"></i></a> 
-                  <a href="https://www.linkedin.com/feed/"><i class="bi bi-facebook"></i></a> 
-                   <a href="https://www.linkedin.com/feed/"> <i class="bi bi-instagram"></i></a> 
-                </div>
-            </div>
-            <div className='two-list'>
-                <h2>Departments</h2>
-                <a href=""><i class="bi bi-arrow-right">Neurology</i></a>
-                <a href=""><i class="bi bi-arrow-right">Opthalmology</i></a>
-                <a href=""><i class="bi bi-arrow-right">Nuclear Magnetic</i></a>
-                <a href=""><i class="bi bi-arrow-right">Surgical</i></a>
-                <a href=""><i class="bi bi-arrow-right">Cardiology</i></a>
-                <a href=""><i class="bi bi-arrow-right">Dental</i></a>
-
-                
-            </div>
-            <div className='two-list'>
-                <h2>Links</h2>
-                <a href=""><i class="bi bi-arrow-right">Home</i></a>
-                <a href=""><i class="bi bi-arrow-right">About</i></a>
-                <a href=""><i class="bi bi-arrow-right">Departaments</i></a>
-                <a href=""><i class="bi bi-arrow-right">Doctors</i></a>
-                <a href=""><i class="bi bi-arrow-right">Blog</i></a>
-                <a href=""><i class="bi bi-arrow-right">Pricing</i></a>
-                <a href=""><i class="bi bi-arrow-right">Contact</i></a>
-
-
-            </div>
-            <div className='two-list'>
-                <h2>Services</h2>
-                <a href=""><i class="bi bi-arrow-right">Emergency Services</i></a>
-                <a href=""><i class="bi bi-arrow-right">Qualified Doctors</i></a>
-                <a href=""><i class="bi bi-arrow-right">Outdoors Checkup</i></a>
-                <a href=""><i class="bi bi-arrow-right">24 Hours Services</i></a>
-               
-            </div>
-            <div>
-                <h2>Have a Question?</h2>
-                <div className='icones'>
-                <i  class="bi bi-geo-alt-fill"></i>
-                    <p className='metn'>203 Fake St. Mountain View, San Francisco, <br /> California, USA203 Fake St. Mountain View, <br /> San Francisco, California, USA</p>
-                </div>
-                <div>
-                <i class="bi bi-telephone-fill"></i>
-                    <a className='metn' href="">+2 392 3929 210</a>
-                </div>
-                <div>
-                <i class="bi bi-envelope-fill"></i>
-                    <a className='metn' href="">	info@yourdomain.com</a>
-                </div>
-            </div>
+  return (
+    <footer>
+      <div className="container">
+        {/* Brend və sosial media */}
+        <div>
+          <h2>MediPlus</h2>
+          <p>
+            Far far away, behind the <br />
+            word mountains, far <br />
+            from the countries.
+          </p>
+          <div className="media-icons">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-twitter"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
 
+        {/* Departments */}
+        <div className="two-list">
+          <h2>Departments</h2>
+          <a href="/departments/neurology"><i className="bi bi-arrow-right"></i> Neurology</a>
+          <a href="/departments/opthalmology"><i className="bi bi-arrow-right"></i> Opthalmology</a>
+          <a href="/departments/nuclear-magnetic"><i className="bi bi-arrow-right"></i> Nuclear Magnetic</a>
+          <a href="/departments/surgical"><i className="bi bi-arrow-right"></i> Surgical</a>
+          <a href="/departments/cardiology"><i className="bi bi-arrow-right"></i> Cardiology</a>
+          <a href="/departments/dental"><i className="bi bi-arrow-right"></i> Dental</a>
+        </div>
 
-    )
-}
+        {/* Sayt linkləri */}
+        <div className="two-list">
+          <h2>Links</h2>
+          <a href="/"><i className="bi bi-arrow-right"></i> Home</a>
+          <a href="/about"><i className="bi bi-arrow-right"></i> About</a>
+          <a href="/departments"><i className="bi bi-arrow-right"></i> Departments</a>
+          <a href="/doctors"><i className="bi bi-arrow-right"></i> Doctors</a>
+          <a href="/blog"><i className="bi bi-arrow-right"></i> Blog</a>
+          <a href="/pricing"><i className="bi bi-arrow-right"></i> Pricing</a>
+          <a href="/contact"><i className="bi bi-arrow-right"></i> Contact</a>
+        </div>
 
-export default Footer
+        {/* Xidmətlər */}
+        <div className="two-list">
+          <h2>Services</h2>
+          <a href="/services/emergency"><i className="bi bi-arrow-right"></i> Emergency Services</a>
+          <a href="/services/doctors"><i className="bi bi-arrow-right"></i> Qualified Doctors</a>
+          <a href="/services/checkup"><i className="bi bi-arrow-right"></i> Outdoors Checkup</a>
+          <a href="/services/24hours"><i className="bi bi-arrow-right"></i> 24 Hours Services</a>
+        </div>
+
+        {/* Əlaqə bölməsi */}
+        <div className="have1-div">
+          <h2>Have a Question?</h2>
+          <div className="icones">
+            <i className="bi bi-geo-alt-fill"></i>
+            <p className="metn">
+              203 Fake St. Mountain View, San Francisco, <br />
+              California, USA
+            </p>
+          </div>
+          <div className="icones">
+            <i className="bi bi-telephone-fill"></i>
+            <a className="metn" href="tel:+23923929210">+2 392 3929 210</a>
+          </div>
+          <div className="icones">
+            <i className="bi bi-envelope-fill"></i>
+            <a className="metn" href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

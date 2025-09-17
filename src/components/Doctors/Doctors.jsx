@@ -65,6 +65,7 @@ const doctors = [
 
 const Doctors = () => {
   return (
+    <>
     <div className="main-doc">
       {doctors.map((doc, index) => (
         <div className="doctor-card" key={index}>
@@ -90,6 +91,8 @@ const Doctors = () => {
       
       ))}
     </div>
+   
+    </>
     
   );
 };
