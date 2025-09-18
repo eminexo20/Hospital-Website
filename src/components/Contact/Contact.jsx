@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import MyMap from '../Maps/Maps'; // Yol strukturuna uyğunlaşdır
+import Maps from '../Maps/Maps'; // Yol strukturuna uyğunlaşdır
 
 const Contact = () => {
   return (
