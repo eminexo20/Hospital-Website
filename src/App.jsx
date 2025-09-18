@@ -11,7 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Mymap from './components/MyMap/Mymap';
+import Maps from './components/Maps/Maps';
+
 
 import Departament from './components/Departament/Departament';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import MyMap from '../MyMap/Mymap'; // Yol strukturuna uyğunlaşdır
+import MyMap from '../Maps/Maps'; // Yol strukturuna uyğunlaşdır
 
 const Contact = () => {
   return (
@@ -51,7 +51,7 @@ const Contact = () => {
         </div>
 
         <div className='demo2'>
-          <MyMap />
+          <Maps/>
           <div className="form-wrapper">
       <form className="contact-form">
         <input type="text" placeholder="Name" name="name" required />
